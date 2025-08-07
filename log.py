@@ -46,6 +46,11 @@ def get_commit_logs(repo_path, count):
                 output += f"  - {diff.a_path}\n"
         else:
             output += "Files changed: None\n"
+
+        output += "\n"
+        output += "-------:O---- ;P ------ :3 ---- XD ------\n"
+        output += "\n"
+
     return output
 
 def run_log():
